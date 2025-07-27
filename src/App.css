@@ -1,0 +1,61 @@
+/* src/App.css */
+
+/* Загальні стилі */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* Стилі для вводу */
+input[type="tel"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 80%;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+/* Контейнер з автівками */
+.car-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+/* Одна автівка */
+.car-card {
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  padding: 10px;
+  width: 150px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.car-card:hover {
+  transform: scale(1.05);
+}
+
+/* Фото */
+.car-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Вибране авто */
+.car-card.selected {
+  border-color: #4CAF50;
+  background-color: #eaffea;
+}
+
+/* Підтвердження */
+.confirmation {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #d0f0d0;
+  border-radius: 10px;
+}
