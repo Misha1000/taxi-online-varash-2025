@@ -14,7 +14,8 @@ import PhoneAuth from '../components/PhoneAuth';
 
 const TELEGRAM_BOT_LINK = 'https://t.me/varash_taxi_driver_bot'; // заміни на свій бот
 const phoneToId = (p) => (p || '').replace(/\D/g, '');
-const BACKEND_URL = 'http://localhost:5001';
+const BACKEND_URL = 'https://taxi-backend-51s8.onrender.com';
+
 
 
 function PassengerDashboard() {
